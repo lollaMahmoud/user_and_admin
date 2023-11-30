@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mydateModelStoreContainer" CdmEntityContainer="mydateEntities">
+    <EntitySetMapping Name="llgins">
+      <EntityTypeMapping TypeName="mydateModel.llgin">
+        <MappingFragment StoreEntitySet="llgin">
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="lpass" ColumnName="lpass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mdates">
+      <EntityTypeMapping TypeName="mydateModel.mdate">
+        <MappingFragment StoreEntitySet="mdate">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="namee" ColumnName="namee" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="departmint" ColumnName="departmint" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
